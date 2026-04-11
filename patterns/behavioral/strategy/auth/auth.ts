@@ -51,6 +51,7 @@ const st = new Authen();
 st.use("twitter", new TwitterS()).use("oauth", new OAuth());
 
 function getS(name: string, ...args: any) {
+  console.log(...args)
   st.authenticate(name, args);
 }
 getS("oauth", "ddddd");
