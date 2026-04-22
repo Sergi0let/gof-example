@@ -63,11 +63,12 @@ npm run format:check  # check only (handy for CI)
 
 **Structural**
 
-- _No examples in the repo yet._
+- [x] **Adapter** — `patterns/structural/adapter/logger.ts`
 
 **Behavioral**
 
 - [x] **Strategy** — `patterns/behavioral/strategy/` (auth, navigation-plan, pricing-system; basic and advanced files)
+- [x] **Observer** — `patterns/behavioral/observer/` (new-subscription-advance.ts, news-subscriber.ts)
 
 ### Next (roadmap)
 
@@ -78,7 +79,6 @@ npm run format:check  # check only (handy for CI)
 
 **Structural**
 
-- [ ] **Adapter** — wrap an incompatible interface to match what clients expect
 - [ ] **Decorator** — add behavior dynamically without subclass explosion
 - [ ] **Facade** — one simple entry point over a messy subsystem
 - [ ] **Proxy** — stand-in for expensive or remote resources (lazy load, access control)
@@ -86,7 +86,6 @@ npm run format:check  # check only (handy for CI)
 
 **Behavioral**
 
-- [ ] **Observer** — events and subscriptions / publish–subscribe
 - [ ] **Command** — encapsulate requests (undo queues, job dispatch)
 - [ ] **State** — object behavior changes when internal state changes
 - [ ] **Template Method** — fixed algorithm skeleton with overridable steps
